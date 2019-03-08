@@ -22,7 +22,7 @@ export default class App extends React.Component {
       if (this.state.placeName.trim() === "") {
         return false;
       }
-      else if (this.state.places.indexOf(this.state.placeName) > -1){
+      else if (this.state.places.indexOf(this.state.placeName.trim()) > -1){
         return alert( 'Option already used');
       }
       this.setState((prevState) => ({
@@ -66,14 +66,14 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red',
+    // backgroundColor: 'red',
     flexDirection: 'column',
     alignItems: 'center',  //on the cross-section
     justifyContent: 'center', // on the main-section
   },
   inputContainer: {
     // flex:1,
-    backgroundColor: 'green',
+    // backgroundColor: 'green',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center'
