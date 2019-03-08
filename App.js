@@ -1,19 +1,29 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View ,TextInput} from 'react-native';
 
 export default class App extends React.Component {
+  
+
+
+constructor(props) {
+  super(props);
+  this.state = {
+
+    text: 'please write something'
+
+  };
+}
   render() {
     return (
       
       
       
       <View style={styles.container}>
-        <Text style={styles.heading}>Boiler Plate</Text>
-      <Text>Hello World!</Text>
-        <Text>I am learning React Native .</Text>
-        <Text>It has soo much bugs </Text>
-        <Text>But I accept the challenge </Text>
-        
+ <TextInput style={{height:40,width:100}} 
+ onFocus={(text) =>this.setState({text:''})}
+ value={this.state.text}>
+ 
+ </TextInput>
       </View>
     );
   }
@@ -22,13 +32,10 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: 'red',
+    flexDirection:'column',
+    alignItems: 'flex-start',  //on the cross-section
+    justifyContent: 'flex-start', // on the main-section
   },
-  heading:{
-    fontSize: 20,
-    fontWeight:'bold',
-    color:'blue'
-  },
+ 
 });
