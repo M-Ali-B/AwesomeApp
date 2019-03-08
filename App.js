@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View ,TextInput} from 'react-native';
+import { StyleSheet, Text, View ,TextInput,Button} from 'react-native';
 
 export default class App extends React.Component {
   
@@ -19,13 +19,20 @@ constructor(props) {
       
       
       <View style={styles.container}>
- <TextInput style={{height:40,width:100}} 
- onFocus={(text) =>this.setState({text:''})}
- value={this.state.text}>
- 
- </TextInput>
+      <View style={styles.inputContainer}>
+      
+          <TextInput style={{ height: 40 ,width:250}}
+            onFocus={(text) => this.setState({ text})}
+            value={this.state.text}>
+
+          </TextInput>
+          <Button
+            title="submit"
+          ></Button>
+        </View>
+
       </View>
-    );
+     );
   }
 }
 
@@ -34,8 +41,14 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'red',
     flexDirection:'column',
-    alignItems: 'flex-start',  //on the cross-section
-    justifyContent: 'flex-start', // on the main-section
+    alignItems: 'center',  //on the cross-section
+    justifyContent: 'center', // on the main-section
+  },
+  inputContainer:{
+    // flex:1,
+    backgroundColor:'green',
+    flexDirection:'row',
+    justifyContent:'space-between'
   },
  
 });
