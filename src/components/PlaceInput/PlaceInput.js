@@ -14,14 +14,17 @@ class PlaceInput extends Component{
     };
 
 
-    placeSubmitHandler = (props) => {
+    placeSubmitHandler = () => {
         if (this.state.placeName.trim() === "") {
             return alert("Can't Submit Empty");
         }
-        else if (this.props.places.indexOf(this.state.placeName.trim()) > -1) {
+        if (this.props.places.map(place => place.value).indexOf(this.state.placeName.trim()) > -1) {
             return alert('Option already used');
         }
         this.props.onPlaceAdded(this.state.placeName);
+
+        
+        console.warn(this.props.places.map(place => place.value));
     }
 
 render(){

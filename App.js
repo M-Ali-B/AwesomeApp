@@ -59,6 +59,7 @@ export default class App extends React.Component {
       <PlaceInput  
           onPlaceAdded = {this.placeAddedHandler}
           places={this.state.places}
+          
       />
       <PlaceList 
       places={this.state.places}
