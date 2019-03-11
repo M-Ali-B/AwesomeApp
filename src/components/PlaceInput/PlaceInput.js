@@ -16,7 +16,7 @@ class PlaceInput extends Component{
 
     placeSubmitHandler = (props) => {
         if (this.state.placeName.trim() === "") {
-            return false;
+            return alert("Can't Submit Empty");
         }
         else if (this.props.places.indexOf(this.state.placeName.trim()) > -1) {
             return alert('Option already used');
@@ -41,6 +41,7 @@ render(){
             <Button
                 title="submit"
                 style={styles.placeButton}
+                
                 onPress={this.placeSubmitHandler}
             ></Button>
         </View>
