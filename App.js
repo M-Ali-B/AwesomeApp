@@ -1,64 +1,50 @@
 import React from 'react';
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+import ListItem from './src/components/ListItem/ListItem';
+
+import PlaceInput from './src/components/PlaceInput/PlaceInput';
+import PlaceList from './src/components/ListPlace/PlaceList';
+
 
 export default class App extends React.Component {
-
-
-
-  
     state = {
 
-      placeName: "",
+     
       places: []
 
     };
 
-    placeNameChangedHandler = (val) => {
-      this.setState({
-        placeName: val
-      });
-    };
-    placeSubmitHandler = () => {
-      if (this.state.placeName.trim() === "") {
-        return false;
-      }
-      else if (this.state.places.indexOf(this.state.placeName.trim()) > -1){
-        return alert( 'Option already used');
-      }
-      this.setState((prevState) => ({
-        places: prevState.places.concat(prevState.placeName)
-      }))
-    }
+  placeAddedHandler = placeName => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.concat(placeName)
+      };
+    });
+  };
+    
   
 
 
 
   render() {
-    const placesOutput = this.state.places.map((place,index) => (
-      <Text key={index}>{place}</Text>
-    ))
+    
     return (
 
 
 
       <View style={styles.container}>
-        <View style={styles.inputContainer}>
+<View style={styles.appNameSection}>
+          <Text style={styles.appName}>Awesome Location App</Text>
+</View>
+      
+      <PlaceInput  
+          onPlaceAdded = {this.placeAddedHandler}
+      />
+      <PlaceList 
+      places={this.state.places}
+      />
 
-          <TextInput style={{ height: 40, width: 150 }}
-            onChangeText={this.placeNameChangedHandler}
-            value={this.state.placeName}
-            style={styles.placeInput}
-            placeholder="Name your places!"
-            >
-          </TextInput>
-          <Button
-            title="submit"
-            style={styles.placeButton}
-            onPress={this.placeSubmitHandler}
-          ></Button>
-        </View>
-<View>{placesOutput}</View>
-      </View>
+</View>
     );
   }
 }
@@ -71,21 +57,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',  //on the cross-section
     justifyContent: 'center', // on the main-section
   },
-  inputContainer: {
-    // flex:1,
-    // backgroundColor: 'green',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
+  
+  appNameSection:{
+    
+    flexDirection:'row',
+    justifyContent:'flex-start',
+    alignItems:'flex-start'
   },
-  placeInput: {
-    width: '60%'
-  },
-  placeButton: {
-    width: '30%'
+  appName:{
+    fontWeight:'bold'
+    
 
   },
 
+  listContainer:{
+    width:'100%'
+  },
 });
 
 
