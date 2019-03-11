@@ -18,9 +18,9 @@ class PlaceInput extends Component{
         if (this.state.placeName.trim() === "") {
             return false;
         }
-        // else if (this.props.indexOf(this.state.placeName.trim()) > -1) {
-        //     return alert('Option already used');
-        // }
+        else if (this.props.places.indexOf(this.state.placeName.trim()) > -1) {
+            return alert('Option already used');
+        }
         this.props.onPlaceAdded(this.state.placeName);
     }
 

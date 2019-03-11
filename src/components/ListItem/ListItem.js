@@ -2,7 +2,8 @@ import React from 'react';
 import { Text,StyleSheet,View,TouchableHighlight,TouchableOpacity,TouchableWithoutFeedback } from "react-native";
 
 const listItem = (props) =>(
-    <TouchableOpacity onPress={props.onItemPressed}>
+    <TouchableOpacity 
+    onPress={props.onItemPressed}>
 <View style={styles.listItem} >
 
     <Text>{props.placeName}</Text>
