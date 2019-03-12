@@ -18,13 +18,13 @@ class PlaceInput extends Component{
         if (this.state.placeName.trim() === "") {
             return alert("Can't Submit Empty");
         }
-        if (this.props.places.map(place => place.value).indexOf(this.state.placeName.trim()) > -1) {
+        if (this.props.places.map(place => place.name).indexOf(this.state.placeName.trim()) > -1) {
             return alert('Option already used');
         }
         this.props.onPlaceAdded(this.state.placeName);
 
         
-        console.warn(this.props.places.map(place => place.value));
+        console.warn(this.props.places.map(place => place.name));
     }
 
 render(){
@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
 
 
     },
+   
 });
 
 

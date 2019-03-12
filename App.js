@@ -4,7 +4,7 @@ import ListItem from './src/components/ListItem/ListItem';
 
 import PlaceInput from './src/components/PlaceInput/PlaceInput';
 import PlaceList from './src/components/ListPlace/PlaceList';
-
+import placeImage from './src/assests/x-team.jpg';
 
 export default class App extends React.Component {
     state = {
@@ -20,8 +20,8 @@ export default class App extends React.Component {
         places: prevState.places.concat({
           
           key:Math.random().toString(),
-          
-          value:placeName
+          name:placeName,
+          image:placeImage
         })
       };
     });
