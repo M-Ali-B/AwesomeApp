@@ -5,12 +5,13 @@ import ListItem from './src/components/ListItem/ListItem';
 import PlaceInput from './src/components/PlaceInput/PlaceInput';
 import PlaceList from './src/components/ListPlace/PlaceList';
 import placeImage from './src/assests/x-team.jpg';
-
+import PlaceDetail from './src/components/PlaceDetail/placeDetail';
 export default class App extends React.Component {
     state = {
 
      
-      places: []
+      places: [],
+      selectedPlaces:null
 
     };
 
@@ -28,15 +29,20 @@ export default class App extends React.Component {
   };
 
 
-  placeDeletedHandler = index => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.filter((place) => {
-          return place.key !== index;
-        })
-      }
+  placeSelectedHandler = index => {
+    // this.setState(prevState => {
+    //   return {
+    //     places: prevState.places.filter((place) => {
+    //       return place.key !== index;
+    //     })
+    //   }})
 
-
+this.setState(prevState => {
+  return {
+    selectedPlaces: prevState.places.find(places => {
+      return places.key === index;
+    })
+  }
 })
 
   }
@@ -55,7 +61,7 @@ export default class App extends React.Component {
 <View style={styles.appNameSection}>
           <Text style={styles.appName}>Awesome Location App</Text>
 </View>
-      
+      <PlaceDetail selectedPlaces={this.state.selectedPlaces}/>
       <PlaceInput  
           onPlaceAdded = {this.placeAddedHandler}
           places={this.state.places}
@@ -63,7 +69,7 @@ export default class App extends React.Component {
       />
       <PlaceList 
       places={this.state.places}
-      onItemDeleted={this.placeDeletedHandler}
+      onItemSelected={this.placeSelectedHandler}
       />
 
 </View>
