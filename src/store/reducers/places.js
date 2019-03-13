@@ -1,35 +1,47 @@
-import {ADD_PLACE,DELETE_PLACE,SELECT_PLACE,DESELECT_PLACE} from '../actions/actionTypes'
+import {ADD_PLACE,DELETE_PLACE,SELECT_PLACE,DESELECT_PLACE} from '../actions/actionTypes';
 
-{/* place reducers*/} 
+const  initialState = {
+    places: [],
+    selectedPlaces: null
+}
 
-export const addPlace = (placeName)=>{
+export default (state = initialState, action) => {
+  switch (action.type) {
+    case 'ADD_PLACE':
+    return{
+      ...state,
+      places: state.places.concat({
 
-    return {
-        type:ADD_PLACE,
-        placeName:placeName // now these are the payloads (payloads are content that is transfered to reducers from the actions .Action recieves payloads from the component via a dispatch)
+        key: Math.random().toString(),
+        name: action.placeName,
+        image: placeImage
+      })
+    };
+    case 'DELETE_PLACE':
+    return{
+      ...state,
+      
+        places: state.places.filter((place) => {
+          return place.key !== state.selectedPlaces.key;
+        }),
+
+        selectedPlaces: null
 
     };
-}
 
-export const deletePlace =()=>{
-    return {
-        type:DELETE_PLACE,
-
-    }
-}
-
-
-export const selectPlace = (key) =>{
-
-    return {
-        type:SELECT_PLACE,
-        placeKey:key
-    }
-}
-
-
-export const deselectPlace =()=>{
-    return {
-        type:DESELECT_PLACE
-    }
+    case 'SELECT_PLACE':
+    return{
+      ...state,
+      selectedPlaces: state.places.find(places => {
+        return places.key === action.placeKey;
+      })
+    };
+    case 'DESELECT_PLACE':
+    return{
+      ...state,
+      selectedPlaces: null
+    };
+  default:
+    return state
+  }
 }
