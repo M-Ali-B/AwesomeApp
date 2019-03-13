@@ -1260,6 +1260,10 @@
         "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\7ec3f9e3bdf61cc09571f284690c371c\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "F:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assests_xteam.jpg.flat",
+        "source": "F:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assests_xteam.jpg"
+    },
+    {
         "merged": "F:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\7ec3f9e3bdf61cc09571f284690c371c\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },

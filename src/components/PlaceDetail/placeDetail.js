@@ -2,8 +2,6 @@ import React from 'react';
 import { Modal, View, Text, Button, Image, StyleSheet } from 'react-native';
 
 
-
-
 const placeDetail = props => {
 
 
@@ -15,8 +13,10 @@ const placeDetail = props => {
         modalContent = (
 
             <View>
-                <Image source={props.selectedPlaces.placeImage} />
-                <Text>{props.selectedPlaces.placeName}</Text>
+                <Image source={props.selectedPlaces.image} 
+                style={styles.placeImage}
+                />
+                <Text style={styles.placeText}>{props.selectedPlaces.name}</Text>
             </View>
 
 
@@ -28,13 +28,29 @@ const placeDetail = props => {
 
     return (
 
-        <Modal visible={props.selectedPlaces !== null} animationType="slide">
-            <View styles={style.modelContainer}>
+        <Modal
+        
+        visible={props.selectedPlaces !== null} 
+        animationType="slide"
+            onRequestClose={() => {
+                alert('Modal has been closed.');
+            }}>
+            <View style={styles.modelContainer}>
                 {modalContent}
-                <View>
-                    <Button title="Delete" color="red" />
-                    <Button title="Close" />
-                </View>
+                <View style={styles.buttons} >
+                    <Button title="Delete"  color="red"
+                    onPress={props.onDeleteHandler}
+                    
+                    />
+                    {/** style attribute does not work in button aso have to sandwitch button in different views  */ }
+                  
+                    </View>
+                    <View  style={styles.closeButton}>  
+                    <Button title="Close" 
+                             onPress={props.onModalClose}
+                     />
+                    </View>
+                
             </View>
 
         </Modal>
@@ -44,12 +60,25 @@ const placeDetail = props => {
 };
 
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
 
     modelContainer: {
         margin: 42
     },
-
+    placeImage:{
+        width:'100%',
+        height:200
+        
+    },
+    closeButton:{
+        marginTop:10
+    },
+    placeText:{
+        fontWeight:'bold',
+        textAlign:'center'
+    },
+    
+    
 });
 
 export default placeDetail;
