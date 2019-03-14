@@ -9,7 +9,7 @@ export default (state = initialState, action) => {
   switch (action.type) {
     case 'ADD_PLACE':
     return{
-      ...state,
+      ...state,// it shows previous states as we are not allowed to manipulate the state directly 
       places: state.places.concat({
 
         key: Math.random().toString(),
