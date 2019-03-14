@@ -14,7 +14,7 @@ export default (state = initialState, action) => {
 
         key: Math.random().toString(),
         name: action.placeName,
-        image: placeImage
+        image: action.placeImage
       })
     };
     case 'DELETE_PLACE':

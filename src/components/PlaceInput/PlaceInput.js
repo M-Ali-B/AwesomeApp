@@ -24,7 +24,7 @@ class PlaceInput extends Component{
         this.props.onPlaceAdded(this.state.placeName);
 
         
-        console.warn(this.props.places.map(place => place.name));
+        // console.warn(this.props.places.map(place => place.name));
     }
 
 render(){

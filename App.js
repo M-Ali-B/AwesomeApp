@@ -12,7 +12,8 @@ import {addPlace,deletePlace,selectPlace,deselectPlace} from './src/store/action
   
 
   placeAddedHandler = placeName => {
-   this.props.onAddPlace(placeName);
+   this.props.onAddPlace(placeName,placeImage);
+   console.log('Place added');
   };
 
   ModalCloseHandler = () =>{
@@ -101,9 +102,9 @@ selectedPlaces:state.places.selectedPlaces
 };
 
 
-const mapDispatchToProps = dipatch => {
+const mapDispatchToProps = dispatch => {
   return {
-onAddPlace: (placeName) => dispatch(addPlace(placeName)),
+onAddPlace: (placeName,placeImage) => dispatch(addPlace(placeName,placeImage)),
 onDeletePlace:() => dispatch(deletePlace()),
 onSelectPlace:(index) => dispatch(selectPlace(index)),
 onDeselectPlace:() => dispatch(deselectPlace())
