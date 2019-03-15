@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Mar 15 11:35:22 PKT 2019
+#Fri Mar 15 12:45:37 PKT 2019
 5.base=F\:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=F\:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\assets\\debug
 22.path=lib/armeabi-v7a/libglog.so

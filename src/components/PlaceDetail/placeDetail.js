@@ -44,7 +44,7 @@ const placeDetail = props => {
                        <View style={styles.deleteIcon}>
                             <Icon
                                 size={30}
-                                name="ios-trash"
+                                name="md-trash"
                                 color="red"
 
                             />
