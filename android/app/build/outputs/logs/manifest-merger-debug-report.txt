@@ -4,6 +4,7 @@ ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\a
 INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d3b5831fbde1507fe61c4c350ef9385b\AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\7ec3f9e3bdf61cc09571f284690c371c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1bd42c0c4b4b6bde553aecfd9613f6de\AndroidManifest.xml:17:1-22:12
@@ -98,6 +99,8 @@ uses-sdk
 INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
 INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-vector-icons] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d3b5831fbde1507fe61c4c350ef9385b\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d3b5831fbde1507fe61c4c350ef9385b\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\7ec3f9e3bdf61cc09571f284690c371c\AndroidManifest.xml:20:5-44

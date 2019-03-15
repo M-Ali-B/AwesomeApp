@@ -1,6 +1,7 @@
 import React from 'react';
-import { Modal, View, Text, Button, Image, StyleSheet } from 'react-native';
+import { Modal, View, Text, Button, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const placeDetail = props => {
 
@@ -38,12 +39,21 @@ const placeDetail = props => {
             <View style={styles.modelContainer}>
                 {modalContent}
                 <View style={styles.buttons} >
-                    <Button title="Delete" color="red"
-                        onPress={props.onDeleteHandler}
+                 
+                    <TouchableOpacity onPress={props.onDeleteHandler}>
+                       <View style={styles.deleteIcon}>
+                            <Icon
+                                size={30}
+                                name="ios-trash"
+                                color="red"
 
-                    />
-                    {/** style attribute does not work in button aso have to sandwitch button in different views  */}
-
+                            />
+                       
+                       </View>
+                        
+                    </TouchableOpacity>
+                    
+                  
                 </View>
                 <View style={styles.closeButton}>
                     <Button title="Close"
@@ -77,6 +87,9 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center'
     },
+    deleteIcon:{
+        alignItems:'center'
+    }
 
 
 });

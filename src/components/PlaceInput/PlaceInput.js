@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View, TextInput, Button, StyleSheet } from "react-native";
 
+
 class PlaceInput extends Component{
     
     state = {
@@ -41,12 +42,13 @@ render(){
                 placeholder="Name your places!"
             >
             </TextInput>
+
+           
+
             <Button
                 title="submit"
                 style={styles.placeButton}
-                
-                onPress={this.placeSubmitHandler}
-            ></Button>
+                onPress={this.placeSubmitHandler}></Button>
         </View>
     );
 }
