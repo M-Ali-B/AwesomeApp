@@ -5,7 +5,11 @@
     android:versionName="1.0" >
 
     <uses-sdk
+<<<<<<< HEAD
         android:minSdkVersion="19"
+=======
+        android:minSdkVersion="16"
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -32,6 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity
             android:name="com.facebook.react.devsupport.DevSettingsActivity"
             android:exported="false" />
@@ -42,6 +47,9 @@
         <meta-data
             android:name="android.arch.lifecycle.VERSION"
             android:value="27.0.0-SNAPSHOT" />
+=======
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
     </application>
 
 </manifest>

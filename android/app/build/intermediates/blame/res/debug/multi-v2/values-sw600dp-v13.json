@@ -4,7 +4,11 @@
             "outputFile": "F:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4c9928e79e52a1ed9543e3c7a4ecba05\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\7ec3f9e3bdf61cc09571f284690c371c\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -12,6 +16,7 @@
                         "endColumns": "68,68,69,73,75,58,70,67",
                         "endOffsets": "119,188,258,332,408,467,538,606"
                     }
+<<<<<<< HEAD
                 },
                 {
                     "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\8fa6dbe8c566d67155602b2189d32635\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
@@ -31,6 +36,8 @@
                         "endColumns": "59,69,70,71,57,57,105,63,62,12",
                         "endOffsets": "666,736,807,879,937,995,1101,1165,1228,1410"
                     }
+=======
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
                 }
             ]
         }

@@ -56,6 +56,7 @@ const placeDetail = props => {
                   
                 </View>
                 <View style={styles.closeButton}>
+<<<<<<< HEAD
                     <TouchableOpacity onPress={props.onModalClose}>
                         <View style={styles.closeIcon}>
                             <Icon
@@ -68,6 +69,11 @@ const placeDetail = props => {
                         </View>
 
                     </TouchableOpacity>
+=======
+                    <Button title="Close"
+                        onPress={props.onModalClose}
+                    />
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
                 </View>
 
             </View>
@@ -98,9 +104,12 @@ const styles = StyleSheet.create({
     },
     deleteIcon:{
         alignItems:'center'
+<<<<<<< HEAD
     },
     closeIcon:{
         alignItems:'center'
+=======
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
     }
 
 

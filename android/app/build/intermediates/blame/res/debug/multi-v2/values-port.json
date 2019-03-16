@@ -4,7 +4,11 @@
             "outputFile": "F:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4c9928e79e52a1ed9543e3c7a4ecba05\\res\\values-port\\values-port.xml",
+=======
+                    "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\7ec3f9e3bdf61cc09571f284690c371c\\res\\values-port\\values-port.xml",
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

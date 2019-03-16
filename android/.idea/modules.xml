@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/awesomeApp.iml" filepath="$PROJECT_DIR$/awesomeApp.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-navigation/lib/android/app/react-native-navigation.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-navigation/lib/android/app/react-native-navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
+=======
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
     </modules>
   </component>
 </project>

@@ -9,6 +9,7 @@
 3. Android Emulator :- Click on it and press CTRL+M and click on ```live Reload```
 
 #### if app in real device is not loading ####
+<<<<<<< HEAD
 Try to bundle it up by writing in terminal:
 
 react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
@@ -27,3 +28,8 @@ In the near future if the issue link (https://github.com/oblador/react-native-ve
     "react-native-vector-icons": "^6.4.1",
     "react-redux": "^6.0.1",
     "redux": "^4.0.1"
+=======
+write in terminal:
+
+    react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576

@@ -8,6 +8,7 @@
     <dimen name="abc_config_prefDialogWidth">580dp</dimen>
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+<<<<<<< HEAD
     <dimen name="design_navigation_max_width">320dp</dimen>
     <dimen name="design_snackbar_action_inline_max_width">0dp</dimen>
     <dimen name="design_snackbar_background_corner_radius">2dp</dimen>
@@ -21,4 +22,6 @@
         <item name="tabGravity">center</item>
         <item name="tabMode">fixed</item>
     </style>
+=======
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
 </resources>

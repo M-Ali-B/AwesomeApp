@@ -2,6 +2,7 @@
 <resources>
     <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="android:TextAppearance.Material.Widget.Button.Borderless.Colored"/>
     <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored" parent="android:TextAppearance.Material.Widget.Button.Colored"/>
+<<<<<<< HEAD
     <style name="TextAppearance.AppCompat.Notification.Info.Media"/>
     <style name="TextAppearance.AppCompat.Notification.Media"/>
     <style name="TextAppearance.AppCompat.Notification.Time.Media"/>
@@ -10,4 +11,6 @@
     <style name="TextAppearance.Compat.Notification.Media"/>
     <style name="TextAppearance.Compat.Notification.Time.Media"/>
     <style name="TextAppearance.Compat.Notification.Title.Media"/>
+=======
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
 </resources>

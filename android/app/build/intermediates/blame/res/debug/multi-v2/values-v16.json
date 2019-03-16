@@ -4,6 +4,7 @@
             "outputFile": "F:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ec3b89ca86d48cbbf67246bc786248f4\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
@@ -15,6 +16,9 @@
                 },
                 {
                     "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4c9928e79e52a1ed9543e3c7a4ecba05\\res\\values-v16\\values-v16.xml",
+=======
+                    "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\7ec3f9e3bdf61cc09571f284690c371c\\res\\values-v16\\values-v16.xml",
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,6 +35,19 @@
                         "endColumns": "12",
                         "endOffsets": "289"
                     }
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\04803d4d936586a921cf1d941bce55bf\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
                 }
             ]
         }

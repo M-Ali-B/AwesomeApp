@@ -2,6 +2,7 @@
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
+<<<<<<< HEAD
     "ios": "react-native run-ios",
     "android-gradle": "cd ./android && ./gradlew app:assembleDebug && ./gradlew installDebug"
   },
@@ -11,6 +12,15 @@
     "react": "16.5.0",
     "react-native": "~0.55.2",
     "react-native-navigation": "^2.13.1",
+=======
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "eslint": "^5.15.1",
+    "react": "16.5.0",
+    "react-native": "~0.55.2",
+>>>>>>> 2ec2778ab4cf75c58809e74551e2d3c0d955f576
     "react-native-vector-icons": "^6.4.1",
     "react-redux": "^6.0.1",
     "redux": "^4.0.1"
