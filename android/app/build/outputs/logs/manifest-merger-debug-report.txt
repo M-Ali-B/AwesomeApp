@@ -1,0 +1,249 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-navigation] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-navigation\lib\android\app\build\intermediates\manifests\full\reactNative55\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:react-native-vector-icons] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\35a3b052cc581785b1d2f73ad2ecdf4f\AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.wix-playground:reflow-animator:1.0.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\reflow-animator-1.0.4.aar\d69fa0ded87124b082fb6fd424341033\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.9] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.4.9.aar\09bcfb3a5420fb6876a9abd1b0ffd65a\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4c9928e79e52a1ed9543e3c7a4ecba05\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\6b1895c19faffef46a40f84d1acedfe6\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\fd7c41af91c1b90a853f85f3b14a9297\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\791eecaf3ebbb344984adf481af83932\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\75625cc719bfaae0a0ddebc86fae826a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f0528dbda3a4e002a6622fd947bcdea3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\adfd05bdbc810739cd2ea9143fd0b0aa\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\be3bfba24d1a3571e72215ecc5f4d148\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9b707652a24ab2e32b1da97fc792ea58\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dc0e422fae322be8fa695ee6553eeb5d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\42357869f8b3327b91a76cf9b529978a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ec3b89ca86d48cbbf67246bc786248f4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\c756d8e58b7040349400611d3d707b7e\AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\cba92209f96abfd52cb6bf61c6190262\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\cabf33826b01e35f97f8ae56552d1779\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c45f7fbdf4cb096b104d6a2e44618c60\AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\e22776585ad2b2dda0e059af717d3252\AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\8defc7f62bce699ba0b6ce96225dc2e9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\e66ba1809bb0449a840db1d2e05f8954\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\a6ecdcacf6fe3dcbc242ef2e11ce1ab2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\6daa76792648438fc133605d6542ced5\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1d9f12fcdf72227db88c5b053f1d753\AndroidManifest.xml:17:1-30:12
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:2:5-29
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\35a3b052cc581785b1d2f73ad2ecdf4f\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\35a3b052cc581785b1d2f73ad2ecdf4f\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:5:22-75
+application
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-navigation] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-navigation\lib\android\app\build\intermediates\manifests\full\reactNative55\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-navigation] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-navigation\lib\android\app\build\intermediates\manifests\full\reactNative55\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\35a3b052cc581785b1d2f73ad2ecdf4f\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\35a3b052cc581785b1d2f73ad2ecdf4f\AndroidManifest.xml:13:5-20
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.9] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.4.9.aar\09bcfb3a5420fb6876a9abd1b0ffd65a\AndroidManifest.xml:11:5-20
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.9] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.4.9.aar\09bcfb3a5420fb6876a9abd1b0ffd65a\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4c9928e79e52a1ed9543e3c7a4ecba05\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4c9928e79e52a1ed9543e3c7a4ecba05\AndroidManifest.xml:25:5-29:19
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\6b1895c19faffef46a40f84d1acedfe6\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\6b1895c19faffef46a40f84d1acedfe6\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\fd7c41af91c1b90a853f85f3b14a9297\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\fd7c41af91c1b90a853f85f3b14a9297\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\791eecaf3ebbb344984adf481af83932\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\791eecaf3ebbb344984adf481af83932\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\75625cc719bfaae0a0ddebc86fae826a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\75625cc719bfaae0a0ddebc86fae826a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f0528dbda3a4e002a6622fd947bcdea3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f0528dbda3a4e002a6622fd947bcdea3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\adfd05bdbc810739cd2ea9143fd0b0aa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\adfd05bdbc810739cd2ea9143fd0b0aa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\be3bfba24d1a3571e72215ecc5f4d148\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\be3bfba24d1a3571e72215ecc5f4d148\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9b707652a24ab2e32b1da97fc792ea58\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9b707652a24ab2e32b1da97fc792ea58\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dc0e422fae322be8fa695ee6553eeb5d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dc0e422fae322be8fa695ee6553eeb5d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\42357869f8b3327b91a76cf9b529978a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\42357869f8b3327b91a76cf9b529978a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ec3b89ca86d48cbbf67246bc786248f4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ec3b89ca86d48cbbf67246bc786248f4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c45f7fbdf4cb096b104d6a2e44618c60\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c45f7fbdf4cb096b104d6a2e44618c60\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\e22776585ad2b2dda0e059af717d3252\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\e22776585ad2b2dda0e059af717d3252\AndroidManifest.xml:2:3-17
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1d9f12fcdf72227db88c5b053f1d753\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1d9f12fcdf72227db88c5b053f1d753\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:8:7-38
+activity#com.awesomeapp.MainActivity
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:14:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:23:7-84
+MERGED from [:react-native-navigation] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-navigation\lib\android\app\build\intermediates\manifests\full\reactNative55\debug\AndroidManifest.xml:12:9-14:40
+MERGED from [:react-native-navigation] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-navigation\lib\android\app\build\intermediates\manifests\full\reactNative55\debug\AndroidManifest.xml:12:9-14:40
+	android:exported
+		ADDED from [:react-native-navigation] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-navigation\lib\android\app\build\intermediates\manifests\full\reactNative55\debug\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-navigation] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-navigation\lib\android\app\build\intermediates\manifests\full\reactNative55\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-navigation\lib\android\app\build\intermediates\manifests\full\reactNative55\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\35a3b052cc581785b1d2f73ad2ecdf4f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\35a3b052cc581785b1d2f73ad2ecdf4f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:reflow-animator:1.0.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\reflow-animator-1.0.4.aar\d69fa0ded87124b082fb6fd424341033\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.wix-playground:reflow-animator:1.0.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\reflow-animator-1.0.4.aar\d69fa0ded87124b082fb6fd424341033\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.9] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.4.9.aar\09bcfb3a5420fb6876a9abd1b0ffd65a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.9] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.4.9.aar\09bcfb3a5420fb6876a9abd1b0ffd65a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4c9928e79e52a1ed9543e3c7a4ecba05\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4c9928e79e52a1ed9543e3c7a4ecba05\AndroidManifest.xml:21:5-23:78
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\6b1895c19faffef46a40f84d1acedfe6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\6b1895c19faffef46a40f84d1acedfe6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\fd7c41af91c1b90a853f85f3b14a9297\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\fd7c41af91c1b90a853f85f3b14a9297\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\791eecaf3ebbb344984adf481af83932\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\791eecaf3ebbb344984adf481af83932\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\75625cc719bfaae0a0ddebc86fae826a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\75625cc719bfaae0a0ddebc86fae826a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f0528dbda3a4e002a6622fd947bcdea3\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f0528dbda3a4e002a6622fd947bcdea3\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\adfd05bdbc810739cd2ea9143fd0b0aa\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\adfd05bdbc810739cd2ea9143fd0b0aa\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\be3bfba24d1a3571e72215ecc5f4d148\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\be3bfba24d1a3571e72215ecc5f4d148\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9b707652a24ab2e32b1da97fc792ea58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9b707652a24ab2e32b1da97fc792ea58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dc0e422fae322be8fa695ee6553eeb5d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dc0e422fae322be8fa695ee6553eeb5d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\42357869f8b3327b91a76cf9b529978a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\42357869f8b3327b91a76cf9b529978a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ec3b89ca86d48cbbf67246bc786248f4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ec3b89ca86d48cbbf67246bc786248f4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\c756d8e58b7040349400611d3d707b7e\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\c756d8e58b7040349400611d3d707b7e\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\cba92209f96abfd52cb6bf61c6190262\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\cba92209f96abfd52cb6bf61c6190262\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\cabf33826b01e35f97f8ae56552d1779\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\cabf33826b01e35f97f8ae56552d1779\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c45f7fbdf4cb096b104d6a2e44618c60\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c45f7fbdf4cb096b104d6a2e44618c60\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\8defc7f62bce699ba0b6ce96225dc2e9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\8defc7f62bce699ba0b6ce96225dc2e9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\e66ba1809bb0449a840db1d2e05f8954\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\e66ba1809bb0449a840db1d2e05f8954\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\a6ecdcacf6fe3dcbc242ef2e11ce1ab2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\a6ecdcacf6fe3dcbc242ef2e11ce1ab2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\6daa76792648438fc133605d6542ced5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\6daa76792648438fc133605d6542ced5\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1d9f12fcdf72227db88c5b053f1d753\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1d9f12fcdf72227db88c5b053f1d753\AndroidManifest.xml:20:5-22:41
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4c9928e79e52a1ed9543e3c7a4ecba05\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4c9928e79e52a1ed9543e3c7a4ecba05\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\fd7c41af91c1b90a853f85f3b14a9297\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\fd7c41af91c1b90a853f85f3b14a9297\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\791eecaf3ebbb344984adf481af83932\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\791eecaf3ebbb344984adf481af83932\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\75625cc719bfaae0a0ddebc86fae826a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\75625cc719bfaae0a0ddebc86fae826a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f0528dbda3a4e002a6622fd947bcdea3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f0528dbda3a4e002a6622fd947bcdea3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\adfd05bdbc810739cd2ea9143fd0b0aa\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\adfd05bdbc810739cd2ea9143fd0b0aa\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\be3bfba24d1a3571e72215ecc5f4d148\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\be3bfba24d1a3571e72215ecc5f4d148\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9b707652a24ab2e32b1da97fc792ea58\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9b707652a24ab2e32b1da97fc792ea58\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dc0e422fae322be8fa695ee6553eeb5d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dc0e422fae322be8fa695ee6553eeb5d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\42357869f8b3327b91a76cf9b529978a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\42357869f8b3327b91a76cf9b529978a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ec3b89ca86d48cbbf67246bc786248f4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ec3b89ca86d48cbbf67246bc786248f4\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\8fa6dbe8c566d67155602b2189d32635\AndroidManifest.xml:27:13-51
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from F:\Web Developer Bootcamp\Projects\React Native projects\AwesomeApp\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1d9f12fcdf72227db88c5b053f1d753\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1d9f12fcdf72227db88c5b053f1d753\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ali Baba\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1d9f12fcdf72227db88c5b053f1d753\AndroidManifest.xml:26:13-58

@@ -1,0 +1,4 @@
+#Fri Mar 15 12:52:22 PKT 2019
+base.0=F\:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

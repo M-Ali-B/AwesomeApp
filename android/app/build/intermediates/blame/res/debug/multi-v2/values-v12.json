@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Web Developer Bootcamp\\Projects\\React Native projects\\AwesomeApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ali Baba\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4c9928e79e52a1ed9543e3c7a4ecba05\\res\\values-v12\\values-v12.xml",
+                    "from": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        }
+    ]
+}
